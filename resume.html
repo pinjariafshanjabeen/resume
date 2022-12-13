@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+</head>
+<body>
+
+
+
+    <div class="container" id="main-container">
+        <h3>RESUME FORM</h3>
+        <h5 style="margin-bottom: 15px;">Personal Details</h5>
+  
+      <div class="row g-3 align-items-center">
+        <div class="row g-2">
+          
+          <div class="row">
+            <div class="col" id="firstname">
+              <input id="fname" type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            
+        </div>
+        
+        <div class="row">
+          <div class="col" id="e">
+            <input id="Email" type="text" class="form-control" placeholder=" Email" aria-label=" Email">
+          </div>
+          <div class="col" id="c">
+            <input id="contact" type="text" class="form-control" placeholder="Contact Number" aria-label="Contact" Number>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col" id="a">
+            <input id="addr" type="text" class="form-control" placeholder="Address" aria-label="Address">
+          </div>
+          
+        </div>
+      </div>
+         
+        <!-- Qualification Details -->
+        <h5 style="margin-bottom: 20px;">Qualification Details</h5>
+        
+        <div class="row">
+          <div class="col">
+            <label for="10th"><h6>SSC CGPA:</h6></label>
+            <input type="text" class="form-control" id="ssc" placeholder="" aria-label="">
+          </div>
+          <div class="col">
+            <label for="12th"><h6>Intermediate CGPA:</h6></label>
+            <input type="text" class="form-control" id="inter" placeholder="" aria-label="">
+          </div>
+          <div class="col">
+            <label for="ug"><h6>Degree CGPA:</h6></label>
+            <input type="text" class="form-control" id="ug" placeholder="" aria-label="">
+          </div>
+        </div>
+         
+       <h5>Skills</h5>
+       <input type="text" class="form-control" id="s" placeholder="Enter your skills" aria-label="">
+       <h5>Hobbies</h5>
+       <input type="text" class="form-control" id="h" placeholder="Enter your hobbies" aria-label="">
+        
+        <button type="button" class="btn btn-primary" id="btn">Submit</button>
+     </div>  
+  
+  
+     <!-- output -->
+     <div class="sub" id="op" style="visibility: hidden; border: 2px solid black; padding: 50px;">
+      
+      <h1 id="name">Pinjari Afshan Jabeen</h1>
+    <p id="mobile"> +91 9908402094 </p>
+    <p id="email">afshanj836@gmail.com</p>
+  <br>
+  <h3>OBJECTIVE</h3>
+  <hr>
+  <p>To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and 
+    self development and help me achieve personal as well as organization goals.</p>
+  <h3>EDUCATION</h3>
+  <hr>
+    <p>SSC CGPA: <span id="10"></span></p>
+    <p>Intermediate CGPA: <span id="12"></span></p>
+    <p>Degree CGPA: <span id="ug_resume"></span></p>
+  
+  <h3>Skills</h3>
+  <ul><li id="sk"></li>
+    <li>c</li>
+    <li>java</li>
+    <li>DBMS</li>
+    <li>OS</li>
+</ul>
+  <hr>
+  
+  <h3 >Hobbies:</h3>
+  <ul><li id="hob"></li>
+      <li>listening music</li>
+      <li>playing games</li>
+      <li>watching animie</li>
+</ul>
+  
+  <h3 id="declare">DECLARATION</h3>
+  <hr>
+    <p>I declare myself all the given data above is true.</p>
+  </div>
+<script src="js/resume.js"></script>
+
+</body>
+</html>
